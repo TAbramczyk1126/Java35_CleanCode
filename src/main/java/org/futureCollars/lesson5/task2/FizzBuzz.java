@@ -2,7 +2,13 @@ package org.futureCollars.lesson5.task2;
 
 public class FizzBuzz {
     public static void main(String[] args) {
-        for (int i = 1; i < 100; i++) {
+
+        playFizzBuzz(30);
+
+    }
+
+    public static void playFizzBuzz(int number) {
+        for (int i = 1; i < number; i++) {
             if (isDivisible(i, 3)) {
                 System.out.println("Fizz");
             } else if (isDivisible(i, 5)) {
