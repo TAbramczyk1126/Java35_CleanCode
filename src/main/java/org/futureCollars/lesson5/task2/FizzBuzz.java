@@ -3,8 +3,9 @@ package org.futureCollars.lesson5.task2;
 public class FizzBuzz {
     public static void main(String[] args) {
 
-        playFizzBuzz(31);
-
+        for (int i = 0; i <= 100; i++) {
+            playFizzBuzz(i);
+        }
     }
 
     public static void playFizzBuzz(int number) {
